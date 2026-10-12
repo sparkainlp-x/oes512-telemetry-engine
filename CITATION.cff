@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+title: "OES-512 Telemetry Engine: synthetic 512-channel framing, filtering and summary statistics"
+type: software
+authors:
+  - family-names: Brisson
+    given-names: Jean-François
+    affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+repository-code: "https://github.com/sparkainlp-x/oes512-telemetry-engine"
+url: "https://sparkainlpx.xyz"
+abstract: >-
+  A small asynchronous Python prototype that frames, filters and summarizes
+  synthetic 512-channel telemetry: binary frames with a header, sequence ID,
+  timestamp and checksum; a stateful 50 Hz notch and 0.5-45 Hz Butterworth
+  bandpass per channel; and rolling-window statistics. The statistics are
+  plain definitions: 'coherence' is the mean absolute Pearson correlation over
+  32 sampled channels, 'instability' is the standard deviation of per-channel
+  variances, and 'drift' is the distance of the per-channel mean from the
+  first full window. Threshold alerts go to a local log; webhook POSTs are
+  opt-in. Scope: all input comes from a deterministic built-in generator with
+  a synthetic step disturbance. It is not acquisition hardware, has no
+  connection to real sensors, and no latency or throughput has been measured;
+  alert thresholds are uncalibrated defaults.
+keywords:
+  - research software
+  - telemetry
+  - digital signal processing
+  - SciPy
+  - asyncio
+  - synthetic data
+  - Python
+  - New Brunswick
+license: AGPL-3.0-only
+version: "0.1.0"
+date-released: "2026-10-11"
