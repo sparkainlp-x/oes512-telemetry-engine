@@ -1,5 +1,6 @@
 # OES-512 Telemetry Engine
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23307953.svg)](https://doi.org/10.5281/zenodo.23307953)
 [![CI](https://github.com/sparkainlp-x/oes512-telemetry-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/sparkainlp-x/oes512-telemetry-engine/actions/workflows/ci.yml)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE)
 
@@ -42,3 +43,7 @@ The tests cover the frame round trip, rejection of bad frames, deterministic pay
 ## License
 
 AGPL-3.0-only; see [LICENSE](LICENSE). For a commercial licence, see [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
+
+## Cite
+
+Concept DOI (all versions): [10.5281/zenodo.23307953](https://doi.org/10.5281/zenodo.23307953). v0.1.0: [10.5281/zenodo.23307954](https://doi.org/10.5281/zenodo.23307954). See [CITATION.cff](CITATION.cff).

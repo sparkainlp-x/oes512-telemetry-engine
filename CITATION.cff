@@ -7,6 +7,14 @@ authors:
     given-names: Jean-François
     affiliation: "Spark AI NLP, Fredericton, New Brunswick, Canada"
     orcid: "https://orcid.org/0009-0000-9778-5374"
+doi: "10.5281/zenodo.23307953"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23307953"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23307954"
+    description: "Version DOI for v0.1.0"
 repository-code: "https://github.com/sparkainlp-x/oes512-telemetry-engine"
 url: "https://sparkainlpx.xyz"
 abstract: >-
